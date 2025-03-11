@@ -69,8 +69,6 @@ A modern, responsive personal portfolio website showcasing my profile, skills, b
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
-- Font Awesome Icons
-- Google Fonts (Poppins)
 
 ## 📁 Project Structure
 
@@ -100,7 +98,7 @@ personal-website/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/personal-website.git
+   git clone https:[https://github.com/emon6000/Personal_website]
    ```
 
 2. Open `index.html` in your web browser
@@ -147,15 +145,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👤 Author
 
 **Abdullah Al Mahmud Emon**
-- Website: [Your Website]
+- Website: [[My website](https://abdullahemon6377.wixsite.com/website)]
 - GitHub: [@emon6000](https://github.com/emon6000)
 - LinkedIn: [Abdullah Al Mahmud Emon](https://www.linkedin.com/in/abdullah-al-mahmud-emon-b654b7243/)
 
-## 🙏 Acknowledgments
 
-- Font Awesome for icons
-- Google Fonts for typography
-- Unsplash for stock images (if used)
-
----
-Made with ❤️ by Abdullah Al Mahmud Emon 
+Made by Abdullah Al Mahmud Emon 
