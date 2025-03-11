@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Abdullah Al Mahmud Emon</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/entertainment.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">Hey Emon</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="sports.html">Sports</a></li>
+                    <li><a href="#" class="active">Blog</a></li>
+                    <li><a href="districts.html">Districts</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Blog Posts</h2>
+                <div class="underline"></div>
+            </div>
+
+            <!-- Blog Search -->
+            <div class="blog-search">
+                <input type="text" class="search-input" placeholder="Search blog posts...">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+
+            <!-- Blog Filters -->
+            <div class="blog-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="tech">Technology</button>
+                <button class="filter-btn" data-filter="programming">Programming</button>
+                <button class="filter-btn" data-filter="personal">Personal</button>
+                <button class="filter-btn" data-filter="travel">Travel</button>
+            </div>
+
+            <!-- Blog Posts Grid -->
+            <div class="blog-posts">
+                <!-- Tech Blog Post -->
+                <article class="blog-card" data-category="tech">
+                    <div class="blog-image">
+                        <img src="images\blog/android.png" alt="Application Development">
+                        <div class="blog-category">Technology</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> ongoing process</span>
+                            <span><i class="far fa-clock"></i> Android Studio</span>
+                        </div>
+                        <h3>Started learning Android Studio</h3>
+                        <p>Just explore the world of Android Studio. I am a newbie in this field. Using Java and XML. I am trying to make a simple app. </p>
+                        <a href="blog-post.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-category="tech">
+                    <div class="blog-image">
+                        <img src="images\blog/webdev.jpg" alt="Web Development">
+                        <div class="blog-category">Technology</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> ongoing process</span>
+                            <span><i class="far fa-clock"></i> Newbie Developer</span>
+                        </div>
+                        <h3>The Future of Web Development</h3>
+                        <p>In the era of AI ,i don't think learning web development using HTML,CSS,JS will be a good idea. So just use AI and your imagination and creativity to create a website. </p>
+                        <a href="blog-post.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Programming Blog Post -->
+                <article class="blog-card" data-category="programming">
+                    <div class="blog-image">
+                        <img src="images\blog/cp.jpg" alt="Competitive Programming">
+                        <div class="blog-category">Programming</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> July 2024</span>
+                            <span><i class="far fa-clock"></i> i quit</span>
+                        </div>
+                        <h3>My journey as a Competitive Programmer</h3>
+                        <p>I started competitive programming in 2023. I had good knowledge of stl and other basic programming knowledge. But one day i thought CP is not for me & so i quit it. </p>
+                        <a href="blog-post.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <!-- technology -->
+                <article class="blog-card" data-category="tech">
+                    <div class="blog-image">
+                        <img src="images\blog/unity.png" alt="Game developer">
+                        <div class="blog-category">Technology</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> August, 2024</span>
+                            <span><i class="far fa-clock"></i> Unity</span>
+                        </div>
+                        <h3>My Knowledge about Game Development</h3>
+                        <p>I started learning game development in August, 2024. I learnt Unity(basics) . Tried to make a simple game. But it was hard and i didn't had a good PC & so i quit . </p>
+                        <a href="blog-post.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Personal Blog Post -->
+                <article class="blog-card" data-category="personal">
+                    <div class="blog-image">
+                        <img src="images\blog/uni.jpg" alt="University Life">
+                        <div class="blog-category">Personal</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Feb 11, 2024</span>
+                            <span><i class="far fa-clock"></i> Year 1</span>
+                        </div>
+                        <h3>My First Year at Comilla University</h3>
+                        <p>I started my university life in January, 2023. I had a good time in my first year. I learned many things from my university life. I also made many friends in my first year.But guess what you can't be friends with everyone. </p>
+                        <a href="blog-post.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Abdullah Al Mahmud Emon. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
