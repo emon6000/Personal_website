@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Sports World</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/entertainment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">Hey Emon</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="#" class="active">Sports</a></li>
+                    <li><a href="index.html#blog">Blog</a></li>
+                    <li><a href="districts.html">Districts</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sports Section -->
+    <section class="entertainment-section">
+        <div class="container">
+            <h1 class="section-title">Sports Collection</h1>
+            
+            <!-- Sports Categories -->
+            <div class="category-pills">
+                <span class="pill" data-filter="football">Football</span>
+                <span class="pill" data-filter="cricket">Cricket</span>
+                <span class="pill" data-filter="tennis">Tennis</span>
+                <span class="pill" data-filter="chess">Chess</span>
+            </div>
+
+            <!-- Football Section -->
+            <section id="football" class="sub-section">
+                <h2 class="section-title">Football</h2>
+                
+                <!-- Favorite Teams -->
+                <h3 class="sub-section-title">Favorite Teams</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="images/RM.png" alt="Real Madrid logo" class="card-image">
+                        <div class="card-content">
+                            <h3 class="card-title">Real Madrid</h3>
+                            <p class="card-text">The best team in the world. Rich history and many trophies.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/bra.png" alt="Brazil" class="card-image">
+                        <div class="card-content">
+                            <h3 class="card-title">Brazil</h3>
+                            <p class="card-text">Was the best team in the world. Not anymore.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Players Section -->
+                <h3 class="sub-section-title">Legendary Players</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="images/cristiano.png" alt="Cristiano Ronaldo" class="card-image">
+                        <div class="card-content">
+                            <h3 class="card-title">Cristiano Ronaldo</h3>
+                            <p class="card-text">The best player in the world. Known for his amazing skills and goals.</p>
+                            <span class="pill">Active</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/messi.png" alt="Lionel Messi" class="card-image">
+                        <div class="card-content">
+                            <h3 class="card-title">Lionel Messi</h3>
+                            <p class="card-text">Best player in the world after Cristiano Ronaldo.</p>
+                            <span class="pill">Active</span>
+                        </div>
+                    </div>
+
+                    <!-- Retired Players -->
+                    <div class="card">
+                        <img src="images/neymar.png" alt="Neymar" class="card-image">
+                        <div class="card-content">
+                            <h3 class="card-title">Neymar</h3>
+                            <p class="card-text">The best player in the world after Cristiano Ronaldo and Lionel Messi.</p>
+                            <span class="pill">Active</span>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="sub-section-title">Current favorite Players</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="images/jude.png" alt="Jude Bellingham" class="card-image">
+                        <div class="card-content">
+                            <h3 class="card-title">Jude Bellingham</h3>
+                            <p class="card-text">The best midfielder in the world.</p>
+                            <span class="pill">Active</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/fede.png" alt="Federico Valverde" class="card-image">
+                        <div class="card-content">
+                            <h3 class="card-title">Federico Valverde</h3>
+                            <p class="card-text">The best player in the world right now.</p>
+                            <span class="pill">Active</span>
+                        </div>
+                    </div>
+
+                    <!-- Retired Players -->
+                    <div class="card">
+                        <img src="images/jamal.png" alt="Jamal Musiala" class="card-image">
+                        <div class="card-content">
+                            <h3 class="card-title">Jamal Musiala</h3>
+                            <p class="card-text">Simply the best to watch.</p>
+                            <span class="pill">Active</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cricket Section -->
+            <section id="cricket" class="sub-section">
+                <h2 class="section-title">Cricket</h2>
+                
+                <!-- Teams -->
+                <h3 class="sub-section-title">Favorite Teams</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="images/bd.png" alt="Bangladesh" class="card-image">
+                        <div class="card-content">
+                            <h3 class="card-title">Bangladesh</h3>
+                            <p class="card-text">The worst team in the world. But i love them.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <h3 class="sub-section-title">Favorite Players</h3>
+                <!-- Players -->
+                <div class="featured-grid">
+                    <!-- Active Players -->
+                    <div class="card">
+                        <img src="images/shakib.png" alt="Shakib Al Hasan" class="card-image">
+                        <div class="card-content">
+                            <h3 class="card-title">Shakib Al Hasan</h3>
+                            <p class="card-text">The best all-rounder in the world. </p>
+                            <span class="pill">Active</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/virat.png" alt="Virat Kohli" class="card-image">
+                        <div class="card-content">
+                            <h3 class="card-title">Virat Kohli</h3>
+                            <p class="card-text">Modern cricket's greatest batsman, known for his aggressive style and chase mastery.</p>
+                            <span class="pill">Active</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tennis Section -->
+            <section id="tennis" class="sub-section">
+                <h2 class="section-title">Tennis</h2>
+                <div class="featured-grid">
+                    <div class="card">
+                        <img src="images/roger.png" alt="Roger Federer" class="card-image">
+                        <div class="card-content">
+                            <h3 class="card-title">Roger Federer</h3>
+                            <p class="card-text">20 Grand Slams, known for his elegant style and perfect technique.</p>
+                            <span class="pill">Retired</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/novak.png" alt="Novak Djokovic" class="card-image">
+                        <div class="card-content">
+                            <h3 class="card-title">Novak Djokovic</h3>
+                            <p class="card-text">The best player in the world. Known for his amazing skills and goals.</p>
+                            <span class="pill">Active</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Chess Section -->
+            <section id="chess" class="sub-section">
+                <h2 class="section-title">Chess</h2>
+                <div class="featured-grid">
+                    <div class="card">
+                        <img src="images/magnus.png" alt="Magnus Carlsen" class="card-image">
+                        <div class="card-content">
+                            <h3 class="card-title">Magnus Carlsen</h3>
+                            <p class="card-text">What a player !!!</p>
+                            <span class="pill">Active</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Abdullah Al Mahmud Emon. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/entertainment.js"></script>
+</body>
+</html> 
